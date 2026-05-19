@@ -1,0 +1,6 @@
+scenario,sla_target_min,stores_required,uncovered_cells
+all_demand_20min,20.0,60,0
+all_demand_30min,30.0,13,0
+all_demand_45min,45.0,5,0
+all_demand_60min,60.0,4,0
+all_demand_90min,90.0,2,0

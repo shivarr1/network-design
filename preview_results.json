@@ -1,0 +1,135 @@
+{
+  "summary": {
+    "total_demand_per_day": 373.83799999999997,
+    "n_demand_cells": 252,
+    "n_candidate_sites": 183
+  },
+  "set_cover_tier_respecting": {
+    "n_stores": 3,
+    "uncovered_cells": 0,
+    "sites": [
+      {
+        "site_id": "TR-HSR001",
+        "lat": 12.904404392534895,
+        "lng": 77.6425018662279,
+        "fixed": true
+      },
+      {
+        "site_id": "cand_056",
+        "lat": 12.91,
+        "lng": 77.715,
+        "fixed": false
+      },
+      {
+        "site_id": "cand_065",
+        "lat": 12.93,
+        "lng": 77.595,
+        "fixed": false
+      }
+    ]
+  },
+  "set_cover_sla_sweep": [
+    {
+      "sla_min": 30,
+      "stores_required": 13,
+      "uncovered_cells": 0
+    },
+    {
+      "sla_min": 45,
+      "stores_required": 5,
+      "uncovered_cells": 0
+    },
+    {
+      "sla_min": 60,
+      "stores_required": 4,
+      "uncovered_cells": 0
+    },
+    {
+      "sla_min": 90,
+      "stores_required": 2,
+      "uncovered_cells": 0
+    }
+  ],
+  "max_coverage_curve": [
+    {
+      "K": 1,
+      "opened": 1,
+      "covered_per_day": 96.3,
+      "coverage_pct": 25.8
+    },
+    {
+      "K": 2,
+      "opened": 2,
+      "covered_per_day": 177.0,
+      "coverage_pct": 47.3
+    },
+    {
+      "K": 3,
+      "opened": 3,
+      "covered_per_day": 227.3,
+      "coverage_pct": 60.8
+    },
+    {
+      "K": 5,
+      "opened": 5,
+      "covered_per_day": 303.3,
+      "coverage_pct": 81.1
+    },
+    {
+      "K": 8,
+      "opened": 8,
+      "covered_per_day": 351.1,
+      "coverage_pct": 93.9
+    }
+  ],
+  "max_coverage_best_sites": [
+    {
+      "site_id": "TR-HSR001",
+      "lat": 12.904404392534895,
+      "lng": 77.6425018662279,
+      "fixed": true
+    },
+    {
+      "site_id": "cand_035",
+      "lat": 12.89,
+      "lng": 77.575,
+      "fixed": false
+    },
+    {
+      "site_id": "cand_061",
+      "lat": 12.93,
+      "lng": 77.515,
+      "fixed": false
+    },
+    {
+      "site_id": "cand_087",
+      "lat": 12.95,
+      "lng": 77.715,
+      "fixed": false
+    },
+    {
+      "site_id": "cand_097",
+      "lat": 12.97,
+      "lng": 77.595,
+      "fixed": false
+    },
+    {
+      "site_id": "cand_125",
+      "lat": 13.01,
+      "lng": 77.515,
+      "fixed": false
+    },
+    {
+      "site_id": "cand_133",
+      "lat": 13.01,
+      "lng": 77.675,
+      "fixed": false
+    },
+    {
+      "site_id": "cand_159",
+      "lat": 13.05,
+      "lng": 77.595,
+      "fixed": false
+    }
+  ]
+}

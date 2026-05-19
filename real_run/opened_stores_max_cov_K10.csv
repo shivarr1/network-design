@@ -1,0 +1,11 @@
+site_id,lat,lng,fixed
+TR-HSR001,12.904404392534895,77.6425018662279,True
+cand_017,12.85,77.655,False
+cand_035,12.89,77.575,False
+cand_061,12.93,77.515,False
+cand_069,12.93,77.675,False
+cand_097,12.97,77.595,False
+cand_104,12.97,77.735,False
+cand_125,13.01,77.515,False
+cand_133,13.01,77.675,False
+cand_159,13.05,77.595,False

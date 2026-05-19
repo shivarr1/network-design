@@ -1,0 +1,11 @@
+model,stores,objective,cost_per_month,uncovered_cells,coverage_pct
+set_cover (tier),3,min stores,1050000.0,0.0,
+min_cost CFLP,3,min total cost,1442529.8999999978,0.0,100.0
+max_cov K=1,1,max express coverage,350000.0,,25.771858398557672
+max_cov K=2,2,max express coverage,700000.0,,47.335209368764005
+max_cov K=3,3,max express coverage,1050000.0,,60.80361011989151
+max_cov K=4,4,max express coverage,1400000.0,,73.50991605989756
+max_cov K=5,5,max express coverage,1750000.0,,81.12150182699455
+max_cov K=6,6,max express coverage,2100000.0,,87.05722799715379
+max_cov K=8,8,max express coverage,2800000.0,,93.91661628833873
+max_cov K=10,10,max express coverage,3500000.0,,98.7368860308475
